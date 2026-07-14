@@ -1,0 +1,1 @@
+<?php require_once __DIR__ . '/Store.theme'; class BetaServicetheme { public function read($key) { return (new BetaStoretheme())->load($key); } }

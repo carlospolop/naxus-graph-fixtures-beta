@@ -1,0 +1,1 @@
+<?php require_once __DIR__ . '/Store.php7'; class BetaServicephp7 { public function read($key) { return (new BetaStorephp7())->load($key); } }

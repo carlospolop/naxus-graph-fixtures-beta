@@ -1,0 +1,1 @@
+<?php require_once __DIR__ . '/Service.theme'; function beta_theme_main() { return (new BetaServicetheme())->read('health'); }

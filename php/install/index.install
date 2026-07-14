@@ -1,0 +1,1 @@
+<?php require_once __DIR__ . '/Service.install'; function beta_install_main() { return (new BetaServiceinstall())->read('health'); }

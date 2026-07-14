@@ -1,0 +1,1 @@
+<?php require_once __DIR__ . '/Service.php7'; function beta_php7_main() { return (new BetaServicephp7())->read('health'); }
